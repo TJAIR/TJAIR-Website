@@ -10,15 +10,6 @@ module.exports = {
                 htmlWhitespaceSensitivity: "ignore",
                 bracketSameLine: true,
             },
-        },
-        {
-            files: ["*.svg"],
-            options: {
-                parser: "typescript",
-                semi: false,
-                htmlWhitespaceSensitivity: "ignore",
-                bracketSameLine: true,
-            },
-        },
+        }
     ],
 };

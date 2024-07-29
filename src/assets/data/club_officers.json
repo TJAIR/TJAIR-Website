@@ -1,0 +1,27 @@
+[
+    {
+        "position": "President",
+        "image_path": "/images/placeholder_image.png",
+        "name": "Dhruv Chandna"
+    },
+    {
+        "position": "Vice President",
+        "image_path": "/images/placeholder_image.png",
+        "name": "Justin Lee"
+    },
+    {
+        "position": "Research Coordinator",
+        "image_path": "/images/placeholder_image.png",
+        "name": "Ashwin Menachery"
+    },
+    {
+        "position": "Research Coordinator",
+        "image_path": "/images/placeholder_image.png",
+        "name": "Faraaz Rattani"
+    },
+    {
+        "position": "Treasurer",
+        "image_path": "/images/placeholder_image.png",
+        "name": "Claire Guo"
+    }
+]
