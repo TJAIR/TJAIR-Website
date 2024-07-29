@@ -13,7 +13,7 @@ function LogoElement() {
     return (
         <div className="mr-3">
             <Link to="/">
-                <div className="size-12 rounded-sm">
+                <div className="size-16 rounded-full bg-white">
                     <img src={Logo} />
                 </div>
             </Link>
