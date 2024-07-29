@@ -10,6 +10,6 @@ module.exports = {
                 htmlWhitespaceSensitivity: "ignore",
                 bracketSameLine: true,
             },
-        }
+        },
     ],
 };

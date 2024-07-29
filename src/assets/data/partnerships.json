@@ -1,7 +1,14 @@
 [
     {
         "name": "Test Company",
+        "location": "Alexandria, VA",
         "image": "/images/placeholder_image.png",
-        "link": "https://ion.tjhsst.edu"
+        "link": "https://ion.tjhsst.edu",
+        "directors": [
+            {
+                "name": "Justin Lee",
+                "email": "2025jlee@tjhsst.edu"
+            }
+        ]
     }
 ]

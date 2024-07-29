@@ -8,8 +8,8 @@ interface FooterLinkProps {
 
 function FooterLink(props: FooterLinkProps) {
     return (
-        <div className="size-6">
-            <SocialIcon url={props.link} />
+        <div>
+            <SocialIcon url={props.link} style={{ width: 30, height: 30 }} />
         </div>
     );
 }
@@ -17,12 +17,13 @@ function FooterLink(props: FooterLinkProps) {
 function Footer() {
     return (
         <footer className="flex h-[10vh] w-full flex-col items-center bg-slate-600 pt-4">
-            <div className="flex flex-row space-x-4 items-center justify-center">
-            {footer_links.map((e, i) => (
-                <FooterLink {...e} key={i} />
-            ))}
+            <div className="mb-1 flex flex-row items-center justify-center space-x-2">
+                {footer_links.map((e, i) => (
+                    <FooterLink {...e} key={i} />
+                ))}
             </div>
-            
+
+            <div className="text-slate-100">Built by Justin Lee (2025jlee)</div>
         </footer>
     );
 }

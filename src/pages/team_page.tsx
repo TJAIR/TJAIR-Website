@@ -5,6 +5,7 @@ interface TeamElementProps {
     position: string;
     image_path: string;
 }
+
 function TeamElement(props: TeamElementProps) {
     return (
         <div className="flex flex-row items-center rounded-2xl bg-red-500 p-4">
