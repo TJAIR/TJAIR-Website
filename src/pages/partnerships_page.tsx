@@ -1,4 +1,5 @@
 import partnerships from "../assets/data/partnerships.json";
+import { IconMapPinShare } from "@tabler/icons-react";
 
 interface PartnershipElementProps {
     name: string;
@@ -9,12 +10,32 @@ interface PartnershipElementProps {
 }
 
 function PartnershipElement(props: PartnershipElementProps) {
-    return <div>hi</div>;
+    return (
+        <div className="flex flex-col items-center">
+            <div className="text-3xl font-semibold hover:text-slate-600">
+                <a href={props.link}>{props.name}</a>
+            </div>
+
+            <div className="flex flex-row">
+                <IconMapPinShare />
+                <div>{props.location}</div>
+            </div>
+            <img src={props.image} />
+            <div>Directors:</div>
+            <div className="flex flex-col items-center">
+                {props.directors.map((d) => (
+                    <div>
+                        {d.name} - {d.email}
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 }
 
 function PartnershipsPage() {
     return (
-        <div className="grid grid-cols-4 gap-4">
+        <div className="mx-8 mt-10 grid grid-cols-4 gap-4">
             {partnerships.map((e, i) => (
                 <PartnershipElement {...e} key={i} />
             ))}
