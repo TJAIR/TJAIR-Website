@@ -1,11 +1,8 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import MainPage from "./pages/main_page";
 import Navbar from "./components/navbar";
-import PartnershipsPage from "./pages/partnerships_page";
-import TeamPage from "./pages/team_page";
-import ContactPage from "./pages/contact_page";
-import ResourcesPage from "./pages/resources_page";
 import Footer from "./components/footer";
+import { routes } from "./shared";
+import MainPage from "./pages/main_page";
 
 function App() {
     return (
@@ -15,13 +12,9 @@ function App() {
                 <div className="flex-grow">
                     <Routes>
                         <Route path="/" Component={MainPage} />
-                        <Route
-                            path="/partnerships"
-                            Component={PartnershipsPage}
-                        />
-                        <Route path="/team" Component={TeamPage} />
-                        <Route path="/contact" Component={ContactPage} />
-                        <Route path="/resources" Component={ResourcesPage} />
+                        {routes.map((j) => (
+                            <Route path={j.path} Component={j.component} />
+                        ))}
                         <Route path="*" element={<Navigate to="/" />} />
                     </Routes>
                 </div>

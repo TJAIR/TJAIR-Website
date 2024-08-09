@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "/logo.png";
+import { routes } from "../shared";
 
 function NavbarElement({ name, path }: { name: string; path: string }) {
     return (
@@ -21,19 +22,12 @@ function LogoElement() {
     );
 }
 
-const navbar_elements: { name: string; route: string }[] = [
-    { name: "Partnerships", route: "/partnerships" },
-    { name: "About Us", route: "/team" },
-    { name: "Contact Us", route: "/contact" },
-    { name: "Resources", route: "/resources" },
-];
-
 function Navbar() {
     return (
         <header className="flex h-[10vh] w-full flex-row items-center space-x-8 bg-blue-800 px-4 py-2">
             <LogoElement />
-            {navbar_elements.map(({ name: name, route: route }, i) => (
-                <NavbarElement name={name} path={route} key={i} />
+            {routes.map((j, i) => (
+                <NavbarElement name={j.name} path={j.path} key={i} />
             ))}
             <div className="flex-grow" />
         </header>
