@@ -1,0 +1,85 @@
+[
+    {
+        "part": "Part 1: Fundamentals",
+        "items": [
+            {
+                "name": "Linear Algebra",
+                "desc": "Blue1Brown's playlist on YouTube is the most engaging Linear Algebra playlist.",
+                "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+            },
+            {
+                "name": "Multivariable Calculus",
+                "desc": "Khan Academy's Multivariable Calculus lessons are an amazing refresher.",
+                "link": "https://www.khanacademy.org/math/multivariable-calculus"
+            },
+            {
+                "name": "Statistics and Probability",
+                "desc": "Please watch the Youtube playlist by the channel StatsQuest. Unique style and awesome content.",
+                "link": "https://www.youtube.com/@statquest"
+            }
+        ]
+    },
+    {
+        "part": "Part 2: Machine Learning",
+        "items": [
+            {
+                "name": "Stanford Intro to Machine Learning by Andrew Ng",
+                "desc": "The course also offers a free set of course notes, which are very well written.",
+                "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+            },
+            {
+                "name": "Caltech Machine Learning",
+                "desc": "These are less mathematical and more intuition based.",
+                "link": "https://www.youtube.com/watch?v=mbyG85GZ0PI"
+            },
+            {
+                "name": "Vizuara AI's Machine Learning Teach by Doing",
+                "desc": "35 lectures. Whiteboard + coding approach. ",
+                "link": "https://www.youtube.com/playlist?list=PLPTV0NXA_ZSi-nLQ4XV2Mds8Z7bihK68L"
+            }
+        ]
+    },
+    {
+        "part": "Part 3: Deep Learning",
+        "items": [
+            {
+                "name": "Andrej Karpathy's Zero to Hero Series",
+                "desc": "Andrej Karpathy, an AI researcher who graduated with a Stanford PhD and led Tesla AI for several years, released an amazing series of hands on lectures on YouTube. ",
+                "link": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+            },
+            {
+                "name": "Vizuara AI Neural networks from scratch series",
+                "desc": "35 lectures. Whiteboard + coding approach.",
+                "link": "https://www.youtube.com/playlist?list=PLPTV0NXA_ZSj6tNyn_UadmUeU3Q3oR-hu"
+            }
+            
+        ]
+    },
+    {
+        "part": "Part 4: Transformers and LLMs",
+        "items": [
+            {
+                "name": "University of Waterloo lectures",
+                "desc": "This will give you lots of insights into how Transformers work.",
+                "link": "https://www.youtube.com/watch?v=OyFJWRnt_AY"
+            },
+            {
+                "name": "Vizuara AI Building Transformers series",
+                "desc": "One of the best resources to understand transformers from scratch.",
+                "link": "https://www.youtube.com/playlist?list=PLPTV0NXA_ZSjs5Dz7FfPCzV3BKC7CtJU1"
+            },
+            {
+                "name": "ChatGPT Explainer",
+                "desc": "Wolfram's YouTube explainer video on ChatGPT is one of the best videos to watch.",
+                "link": "https://www.youtube.com/live/flXrLGPY3SU"
+            },
+            {
+                "name": "Interactive LLM Visualization",
+                "desc": "This LLM visualization that you can play with in your browser is hands down the best interactive experience with an LLM.",
+                "link": "https://bbycroft.net/llm"
+            }
+        ]
+    }
+]
+
+
