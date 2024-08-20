@@ -1,7 +1,7 @@
 [
     {
         "position": "President",
-        "image_path": "/images/placeholder_image.png",
+        "image_path": "/images/dc.jpg",
         "name": "Dhruv Chandna"
     },
     {
@@ -11,12 +11,12 @@
     },
     {
         "position": "Research Coordinator",
-        "image_path": "/images/placeholder_image.png",
+        "image_path": "/images/am.jpg",
         "name": "Ashwin Menachery"
     },
     {
         "position": "Research Coordinator",
-        "image_path": "/images/placeholder_image.png",
+        "image_path": "/images/fr.jpg",
         "name": "Faraaz Rattani"
     },
     {
