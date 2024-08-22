@@ -1,27 +1,27 @@
 [
     {
         "position": "President",
-        "image_path": "/images/dc.jpg",
+        "image_path": "/images/officers/dhruv_chandna.jpg",
         "name": "Dhruv Chandna"
     },
     {
         "position": "Vice President",
-        "image_path": "/images/placeholder_image.png",
+        "image_path": "/images/officers/justin_lee.jpg",
         "name": "Justin Lee"
     },
     {
         "position": "Research Coordinator",
-        "image_path": "/images/am.jpg",
+        "image_path": "/images/officers/ashwin_menachery.jpg",
         "name": "Ashwin Menachery"
     },
     {
         "position": "Research Coordinator",
-        "image_path": "/images/fr.jpg",
+        "image_path": "/images/officers/faraaz_rattani.jpg",
         "name": "Faraaz Rattani"
     },
     {
         "position": "Treasurer",
-        "image_path": "/images/cg.jpg",
+        "image_path": "/images/officers/claire_guo.jpg",
         "name": "Claire Guo"
     }
 ]

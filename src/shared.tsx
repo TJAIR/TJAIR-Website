@@ -5,13 +5,12 @@ import PartnershipsPage from "./pages/partnerships_page";
 import PreviousResearchPage from "./pages/previous_research_page";
 import ResourcesPage from "./pages/resources_page";
 
-
 export const routes: {
     name: string;
     path: string;
     component: () => JSX.Element;
 }[] = [
-    { name: "Home", path: "/home", component: MainPage },
+    { name: "Home", path: "/", component: MainPage },
     { name: "Team", path: "/team", component: TeamPage },
     { name: "Resources", path: "/resources", component: ResourcesPage },
     {
@@ -24,5 +23,5 @@ export const routes: {
         path: "/partnerships",
         component: PartnershipsPage,
     },
-    { name: "Contact", path: "/contact_us", component: ContactUsPage }    
+    { name: "Contact", path: "/contact_us", component: ContactUsPage },
 ];

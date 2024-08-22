@@ -5,7 +5,9 @@ import { routes } from "../shared";
 function NavbarElement({ name, path }: { name: string; path: string }) {
     return (
         <Link to={{ pathname: path }}>
-            <span className="font-roboto text-gray-700 text-2xl  hover:underline underline-offset-8" >{name}</span>
+            <span className="font-roboto text-2xl text-gray-700 underline-offset-8 hover:underline">
+                {name}
+            </span>
         </Link>
     );
 }
@@ -14,7 +16,7 @@ function LogoElement() {
     return (
         <div className="mr-3">
             <Link to="/">
-                <div className="size-32 rounded-full bg-white">
+                <div className="size-28 rounded-full bg-white">
                     <img src={Logo} />
                 </div>
             </Link>

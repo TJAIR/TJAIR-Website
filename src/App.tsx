@@ -12,8 +12,12 @@ function App() {
                 <div className="flex-grow">
                     <Routes>
                         <Route path="/" Component={MainPage} />
-                        {routes.map((j) => (
-                            <Route path={j.path} Component={j.component} />
+                        {routes.map((j, i) => (
+                            <Route
+                                path={j.path}
+                                Component={j.component}
+                                key={i}
+                            />
                         ))}
                         <Route path="*" element={<Navigate to="/" />} />
                     </Routes>
