@@ -34,10 +34,21 @@ function PartnershipElement(props: PartnershipElementProps) {
 }
 
 function PartnershipsPage() {
+    if (partnerships.length == 0) {
+        return (
+            <div className="mt-4 flex justify-center text-xl font-semibold">
+                Coming Soon...
+            </div>
+        );
+    }
+    
     return (
         <div className="mx-8 mt-10 grid grid-cols-4 gap-4">
             {partnerships.map((e, i) => (
-                <PartnershipElement {...e} key={i} />
+                <PartnershipElement
+                    {...(e as PartnershipElementProps)}
+                    key={i}
+                />
             ))}
         </div>
     );
