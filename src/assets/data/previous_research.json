@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Foreign Body Detection",
+        "description": "Annually, there are 64 million surgeries in the United States alone. During these surgeries, surgeons may unknowingly leave objects inside patients bodies during the procedures. These foreign bodies (FBs) can be various items, such as coins, jewelry, or medical instruments. Additionally, FBs can be ingested, commonly by children. If left untreated, FBs can cause chronic inflammation and may even lead to death. The most widespread detection method is Chest X-ray (CXR) image analysis. CXRs can be analyzed manually, but this is a tedious process which leaves room for human error. Our project was a solution to this issue, which utilized a custom trained YOLOv8 model to detect FBs. We trained on a dataset of 9000 annotated CXR images containing various objects and were able to produce a model which could accurately detect FBs."
+    }
+]

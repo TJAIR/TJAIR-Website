@@ -41,7 +41,7 @@ function PartnershipsPage() {
             </div>
         );
     }
-    
+
     return (
         <div className="mx-8 mt-10 grid grid-cols-4 gap-4">
             {partnerships.map((e, i) => (
