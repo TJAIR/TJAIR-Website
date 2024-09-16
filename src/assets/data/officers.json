@@ -23,5 +23,10 @@
         "position": "Treasurer",
         "image_path": "/images/officers/claire_guo.jpg",
         "name": "Claire Guo"
+    },
+    {
+        "position": "Outreach Director",
+        "image_path": "/images/officers/connor_friedman.jpg",
+        "name": "Connor Friedman"
     }
 ]
