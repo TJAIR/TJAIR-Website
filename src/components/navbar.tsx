@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "/logo.svg";
+import Logo from "/logo.png";
 import { routes } from "../shared";
 
 function NavbarElement({ name, path }: { name: string; path: string }) {
