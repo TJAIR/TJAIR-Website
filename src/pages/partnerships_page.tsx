@@ -3,9 +3,9 @@ import { IconMapPinShare } from "@tabler/icons-react";
 
 interface PartnershipElementProps {
     name: string;
-    location: string;
-    image: string;
-    link: string;
+    location?: string;
+    image?: string;
+    link?: string;
     directors: { name: string; email: string }[];
 }
 
@@ -16,19 +16,25 @@ function PartnershipElement(props: PartnershipElementProps) {
                 <a href={props.link}>{props.name}</a>
             </div>
 
-            <div className="flex flex-row">
-                <IconMapPinShare />
-                <div>{props.location}</div>
-            </div>
+            {props.location &&
+                <div className="flex flex-row">
+                    <IconMapPinShare />
+                    <div>{props.location}</div>
+                </div>
+            }
             <img src={props.image} />
-            <div>Directors:</div>
-            <div className="flex flex-col items-center">
-                {props.directors.map((d) => (
-                    <div>
-                        {d.name} - {d.email}
+
+            {props.directors &&
+                <>
+                    <div>Directors:</div>
+                    <div className="flex flex-col items-center">
+                        {props.directors.map((d) => (
+                            <div>
+                                {d.name} - {d.email}
+                            </div>
+                        ))}
                     </div>
-                ))}
-            </div>
+                </>}
         </div>
     );
 }
